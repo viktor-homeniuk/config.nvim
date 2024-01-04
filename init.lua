@@ -313,6 +313,11 @@ vim.o.completeopt = 'menuone,noselect'
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 
+-- Change colorscheme
+vim.o.background = "dark" -- or "light" for light mode
+vim.cmd("colorscheme gruvbox")
+
+
 -- [[ Basic Keymaps ]]
 
 -- Keymaps for better default experience
