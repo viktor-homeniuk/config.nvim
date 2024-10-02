@@ -1,6 +1,4 @@
--- autoformat.lua
---
--- Use your language server to automatically format your code on save.
+-- Use language server to automatically format code on save.
 -- Adds additional commands as well to manage the behavior
 
 return {
