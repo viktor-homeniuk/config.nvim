@@ -40,6 +40,15 @@ return {
     config = function()
       require("copilot_cmp").setup()
     end
-  }
+  },
+
+  -- Plugin fot generating unit tests in Golong
+  {
+    "yanskun/gotests.nvim",
+    ft = "go",
+    config = function()
+      require("gotests").setup()
+    end,
+  },
 
 }
